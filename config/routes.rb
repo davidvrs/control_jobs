@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'hello/world'
+
   root to: 'jobs#index'
 
   resources :jobs
